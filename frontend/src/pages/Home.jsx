@@ -53,7 +53,7 @@ const Home = () => {
       <section className="profile-section">
         <h2>Gruppemedlemmer</h2>
         {loading ? (
-          <p>Laster inn gruppemedlemmer...</p>
+          <p>Loading</p>
         ) : (
           <div className="profile-grid">
             {people.map((person) => (
@@ -66,7 +66,7 @@ const Home = () => {
       <section className="log-section">
         <h2>Arbeidslogg</h2>
         {loading ? (
-          <p>Laster inn arbeidslogg...</p>
+          <p>Loading</p>
         ) : (
           <LogList logEntries={logEntries} />
         )}

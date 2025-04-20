@@ -28,9 +28,14 @@ const Header = () => {
           <li>
             <Link to="/">Hjem</Link>
           </li>
+          {people.length > 0 && (
+          <li className="separator">|</li>
+          )}
           {people.map((person, idx) => (
             <li key={idx}>
-              <Link to={`/profile/${person.firstName}`}>{person.firstName}</Link>
+              <Link to={`/profile/${person.firstName}`}>
+                {person.firstName}
+              </Link>
             </li>
           ))}
         </ul>
