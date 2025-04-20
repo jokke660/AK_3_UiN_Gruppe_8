@@ -1,10 +1,10 @@
 export default {
-    name: 'group',
-    title: 'Gruppe',
-    type: 'document',
+    name: 'group', // navnet på dokumenttypen i Sanity
+    title: 'Gruppe', // visningsnavn i Sanity Studio
+    type: 'document', //angir at dette er et dokument
     fields: [
       {
-        name: 'groupName',
+        name: 'groupName', 
         title: 'Gruppenavn',
         type: 'string',
         validation: Rule => Rule.required()
