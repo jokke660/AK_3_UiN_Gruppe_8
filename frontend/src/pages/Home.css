@@ -1,0 +1,51 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .profile-section {
+    margin-bottom: 3rem;
+  }
+  
+  .profile-section h2,
+  .log-section h2 {
+    color: #fff;
+    background-color: #800080;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+    justify-items: center;
+  }
+  
+  .log-section {
+    margin-bottom: 3rem;
+  }
+  
+  .log-section .log-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .log-section table {
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+  }
+  

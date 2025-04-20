@@ -1,0 +1,58 @@
+{
+  "hash": "3a6e45bb",
+  "configHash": "17bbdf0f",
+  "lockfileHash": "2a2b9a4e",
+  "browserHash": "67209e09",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "47ff5102",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2f016af1",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "611e0c83",
+      "needsInterop": false
+    },
+    "@sanity/client": {
+      "src": "../../node_modules/@sanity/client/dist/index.browser.js",
+      "file": "@sanity_client.js",
+      "fileHash": "03ff3223",
+      "needsInterop": false
+    },
+    "@sanity/image-url": {
+      "src": "../../node_modules/@sanity/image-url/lib/browser/image-url.umd.js",
+      "file": "@sanity_image-url.js",
+      "fileHash": "233b834c",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-2L2B7YCM": {
+      "file": "chunk-2L2B7YCM.js"
+    },
+    "chunk-DLSLEFCZ": {
+      "file": "chunk-DLSLEFCZ.js"
+    },
+    "stegaEncodeSourceMap-4JTWHBJD": {
+      "file": "stegaEncodeSourceMap-4JTWHBJD.js"
+    },
+    "chunk-VVVK5NS7": {
+      "file": "chunk-VVVK5NS7.js"
+    },
+    "browser-6VX77IJR": {
+      "file": "browser-6VX77IJR.js"
+    },
+    "chunk-45IN2YCG": {
+      "file": "chunk-45IN2YCG.js"
+    }
+  }
+}

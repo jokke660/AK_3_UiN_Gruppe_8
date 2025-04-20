@@ -1,0 +1,88 @@
+.profile-page {
+  color: #333;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.loading,
+.not-found {
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+}
+
+.profile-info {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details h1 {
+  margin: 0 0 0.5rem;
+  color: #222;      
+}
+
+.profile-details .email {
+  margin: 0 0 1.5rem;
+  color: #555;    
+}
+
+.bio-section h2,
+.interests-section h2,
+.personal-log-section h2 {
+  color: #222;     
+}
+
+.bio-section,
+.interests-section {
+  margin-bottom: 1.5rem;
+}
+
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.interests-list li {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #333;       
+}
+
+.personal-log-section {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .profile-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-details {
+    width: 100%;
+  }
+  .profile-details .email {
+    margin-bottom: 1rem;
+  }
+}
